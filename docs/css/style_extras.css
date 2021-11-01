@@ -117,6 +117,7 @@
 .dataTables_wrapper .dataTables_filter input {
     background: #E9F0F9 !important;
     border: 2px solid #DDE3EF !important;
+    width: 400px !important;
 }
 
 .paginate_button.current {
@@ -205,19 +206,117 @@
     object-fit: contain;
 }
 
-.btn_accion_amarillo{
+.btn_accion_amarillo {
     background: #CD9C2B;
     padding: 0.3rem 0.5rem;
     margin-right: 0.5rem;
 }
 
-.btn_accion_rojo{
+.btn_accion_rojo {
     background: #CF4427;
     padding: 0.3rem 0.5rem;
     margin-right: 0.5rem;
 }
 
-.btn_accion_azul{
+.btn_accion_azul {
     background: #2C7FC2;
     padding: 0.3rem 0.5rem;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    float: left !important;
+    text-align: left !important;
+}
+
+div.dt-buttons {
+    float: right !important;
+}
+
+.entrada {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.entrada_mod {
+    display: flex;
+    align-items: center;
+}
+
+.entrada div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.entrada_mod div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3.9rem;
+}
+
+.input_modificado {
+    background: #E9F0F9;
+    border: 2px solid #DDE3EF;
+    padding: 0.5rem 1rem;
+}
+
+.input_modificado_xl {
+    width: 600px;
+}
+
+.input_modificado_sm {
+    width: 300px;
+}
+
+.botones_formulario {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones_formulario a img,
+.botones_formulario button img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-right: 1rem;
+}
+
+.botones_formulario a,
+.botones_formulario button {
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    padding: 1rem 0;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.botones_formulario a {
+    background: #CF4427;
+}
+
+.botones_formulario button {
+    background: #66BC46;
+}
+
+.botones_formulario a:hover,
+.botones_formulario button:hover {
+    transform: scale(0.98);
+}
+
+.modal-title {
+    margin-left: 3.5rem;
+}
+
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header .btn-close {
+    margin: -0.5rem 3.5rem -0.5rem auto !important;
 }
